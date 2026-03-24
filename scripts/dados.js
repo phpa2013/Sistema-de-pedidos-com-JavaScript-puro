@@ -1,0 +1,47 @@
+"use strict";
+
+export const cardapio = [
+  { id: 1, nome: "X-Burger", categoria: "lanche", preco: 18.9, descricao: "Pão, hambúrguer, queijo e molho especial.", imagem: "./img/categoriaLanche.jpg", estoque: 12, promocao: false },
+  { id: 2, nome: "X-Salada", categoria: "lanche", preco: 21.9, descricao: "Pão, hambúrguer, queijo, alface, tomate e molho.", imagem: "./img/categoriaLanche.jpg", estoque: 10, promocao: true },
+  { id: 3, nome: "X-Bacon", categoria: "lanche", preco: 24.9, descricao: "Hambúrguer, queijo, bacon crocante e molho da casa.", imagem: "./img/categoriaLanche.jpg", estoque: 8, promocao: false },
+  { id: 4, nome: "X-Egg", categoria: "lanche", preco: 22.9, descricao: "Hambúrguer, queijo, ovo e maionese artesanal.", imagem: "./img/categoriaLanche.jpg", estoque: 9, promocao: false },
+  { id: 5, nome: "X-Tudo", categoria: "lanche", preco: 29.9, descricao: "Hambúrguer, queijo, bacon, ovo, alface, tomate e milho.", imagem: "./img/categoriaLanche.jpg", estoque: 6, promocao: true },
+  { id: 6, nome: "Cheeseburger", categoria: "lanche", preco: 17.9, descricao: "Hambúrguer clássico com queijo derretido.", imagem: "./img/categoriaLanche.jpg", estoque: 14, promocao: false },
+  { id: 7, nome: "Cheddar Bacon", categoria: "lanche", preco: 27.9, descricao: "Hambúrguer com cheddar cremoso e bacon.", imagem: "./img/categoriaLanche.jpg", estoque: 7, promocao: true },
+  { id: 8, nome: "Duplo Burger", categoria: "lanche", preco: 31.9, descricao: "Dois hambúrgueres, queijo duplo e molho especial.", imagem: "./img/categoriaLanche.jpg", estoque: 5, promocao: false },
+  { id: 9, nome: "Hot Dog Simples", categoria: "lanche", preco: 14.9, descricao: "Salsicha, molho, batata palha e milho.", imagem: "./img/categoriaLanche.jpg", estoque: 15, promocao: false },
+  { id: 10, nome: "Hot Dog Especial", categoria: "lanche", preco: 19.9, descricao: "Salsicha, purê, queijo, bacon e batata palha.", imagem: "./img/categoriaLanche.jpg", estoque: 11, promocao: true },
+
+  { id: 11, nome: "Batata Pequena", categoria: "porcao", preco: 10.9, descricao: "Porção pequena de batata frita crocante.", imagem: "./img/categoriaPorcao.jpg", estoque: 20, promocao: false },
+  { id: 12, nome: "Batata Média", categoria: "porcao", preco: 14.9, descricao: "Porção média de batata frita crocante.", imagem: "./img/categoriaPorcao.jpg", estoque: 18, promocao: false },
+  { id: 13, nome: "Batata Grande", categoria: "porcao", preco: 18.9, descricao: "Porção grande para dividir.", imagem: "./img/categoriaPorcao.jpg", estoque: 13, promocao: true },
+  { id: 14, nome: "Batata com Cheddar", categoria: "porcao", preco: 21.9, descricao: "Batata frita coberta com cheddar cremoso.", imagem: "./img/categoriaPorcao.jpg", estoque: 9, promocao: true },
+  { id: 15, nome: "Batata com Bacon", categoria: "porcao", preco: 23.9, descricao: "Batata frita com bacon crocante e molho cheddar.", imagem: "./img/categoriaPorcao.jpg", estoque: 8, promocao: false },
+  { id: 16, nome: "Onion Rings", categoria: "porcao", preco: 17.9, descricao: "Anéis de cebola empanados e crocantes.", imagem: "./img/categoriaPorcao.jpg", estoque: 12, promocao: false },
+  { id: 17, nome: "Frango Empanado", categoria: "porcao", preco: 24.9, descricao: "Tiras de frango empanadas e crocantes.", imagem: "./img/categoriaPorcao.jpg", estoque: 10, promocao: true },
+  { id: 18, nome: "Nuggets 6 Unidades", categoria: "porcao", preco: 15.9, descricao: "Seis nuggets crocantes.", imagem: "./img/categoriaPorcao.jpg", estoque: 14, promocao: false },
+  { id: 19, nome: "Nuggets 10 Unidades", categoria: "porcao", preco: 22.9, descricao: "Dez nuggets crocantes.", imagem: "./img/categoriaPorcao.jpg", estoque: 11, promocao: false },
+  { id: 20, nome: "Mandioca Frita", categoria: "porcao", preco: 16.9, descricao: "Mandioca frita sequinha e dourada.", imagem: "./img/categoriaPorcao.jpg", estoque: 13, promocao: false },
+
+  { id: 21, nome: "Coca-Cola Lata", categoria: "bebida", preco: 6.5, descricao: "Refrigerante Coca-Cola lata 350ml.", imagem: "./img/categoriaBebida.jpg", estoque: 30, promocao: false },
+  { id: 22, nome: "Coca-Cola 600ml", categoria: "bebida", preco: 8.9, descricao: "Refrigerante Coca-Cola 600ml.", imagem: "./img/categoriaBebida.jpg", estoque: 20, promocao: false },
+  { id: 23, nome: "Guaraná Lata", categoria: "bebida", preco: 6.0, descricao: "Guaraná lata 350ml.", imagem: "./img/categoriaBebida.jpg", estoque: 28, promocao: false },
+  { id: 24, nome: "Guaraná 600ml", categoria: "bebida", preco: 8.5, descricao: "Guaraná 600ml gelado.", imagem: "./img/categoriaBebida.jpg", estoque: 18, promocao: false },
+  { id: 25, nome: "Fanta Laranja", categoria: "bebida", preco: 6.0, descricao: "Fanta laranja lata 350ml.", imagem: "./img/categoriaBebida.jpg", estoque: 16, promocao: true },
+  { id: 26, nome: "Sprite", categoria: "bebida", preco: 6.0, descricao: "Sprite lata 350ml.", imagem: "./img/categoriaBebida.jpg", estoque: 17, promocao: false },
+  { id: 27, nome: "Suco de Laranja", categoria: "bebida", preco: 9.9, descricao: "Suco natural de laranja 500ml.", imagem: "./img/categoriaBebida.jpg", estoque: 9, promocao: false },
+  { id: 28, nome: "Suco de Uva", categoria: "bebida", preco: 9.9, descricao: "Suco de uva integral 500ml.", imagem: "./img/categoriaBebida.jpg", estoque: 8, promocao: false },
+  { id: 29, nome: "Água Mineral", categoria: "bebida", preco: 4.5, descricao: "Água mineral sem gás 500ml.", imagem: "./img/categoriaBebida.jpg", estoque: 25, promocao: false },
+  { id: 30, nome: "Água com Gás", categoria: "bebida", preco: 5.0, descricao: "Água com gás 500ml.", imagem: "./img/categoriaBebida.jpg", estoque: 19, promocao: false },
+
+  { id: 31, nome: "Milkshake Chocolate", categoria: "sobremesa", preco: 16.9, descricao: "Milkshake cremoso sabor chocolate.", imagem: "./img/categoriaSobremesa.jpg", estoque: 7, promocao: true },
+  { id: 32, nome: "Milkshake Morango", categoria: "sobremesa", preco: 16.9, descricao: "Milkshake cremoso sabor morango.", imagem: "./img/categoriaSobremesa.jpg", estoque: 7, promocao: false },
+  { id: 33, nome: "Milkshake Ovomaltine", categoria: "sobremesa", preco: 18.9, descricao: "Milkshake especial com Ovomaltine.", imagem: "./img/categoriaSobremesa.jpg", estoque: 6, promocao: true },
+  { id: 34, nome: "Sorvete Casquinha", categoria: "sobremesa", preco: 5.9, descricao: "Casquinha crocante com sorvete.", imagem: "./img/categoriaSobremesa.jpg", estoque: 20, promocao: false },
+  { id: 35, nome: "Brownie com Sorvete", categoria: "sobremesa", preco: 14.9, descricao: "Brownie quentinho com sorvete de creme.", imagem: "./img/categoriaSobremesa.jpg", estoque: 9, promocao: false },
+  { id: 36, nome: "Petit Gateau", categoria: "sobremesa", preco: 19.9, descricao: "Bolo quente com recheio cremoso e sorvete.", imagem: "./img/categoriaSobremesa.jpg", estoque: 5, promocao: true },
+  { id: 37, nome: "Pudim", categoria: "sobremesa", preco: 8.9, descricao: "Pudim de leite condensado.", imagem: "./img/categoriaSobremesa.jpg", estoque: 11, promocao: false },
+  { id: 38, nome: "Torta de Limão", categoria: "sobremesa", preco: 11.9, descricao: "Fatia de torta de limão.", imagem: "./img/categoriaSobremesa.jpg", estoque: 10, promocao: false },
+  { id: 39, nome: "Mousse de Maracujá", categoria: "sobremesa", preco: 9.9, descricao: "Mousse gelado de maracujá.", imagem: "./img/categoriaSobremesa.jpg", estoque: 12, promocao: false },
+  { id: 40, nome: "Churros", categoria: "sobremesa", preco: 12.9, descricao: "Churros recheado com doce de leite.", imagem: "./img/categoriaSobremesa.jpg", estoque: 8, promocao: true }
+];

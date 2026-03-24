@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.maxWidth{
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+.headerMain{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin: 1em 0;
+}
+.filtros{
+    background-color: white;
+    padding: .75em;
+    box-shadow: rgba(0, 0, 0, 0.8);
+}
+
+.filterTxt{
+    margin: 1em 0;
+}
+
+.filterTxt input{
+    width: 100%;
+    padding: .75em;
+    border: transparent;
+    outline: 2px solid rgb(102, 102, 102);
+    border-radius: .5em;
+}
+.filterTxt input:focus{
+    outline: 3px solid green;
+}
+
+.filterRadios{
+    display: flex;
+    gap: 1em;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.imgFluid{
+    width: 100%;
+}
+
+.cardapio, .carrinho{
+    padding: .5em;
+    background-color: white;
+}
+
+.listaCardapio, .listaCarrinho{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .75em;
+}
+
+.liItem{
+    border: 2px solid rgb(102, 102, 102);
+    padding: .25em;
+    border-radius: .5em;
+
+}
+.productTitle{
+    margin: .25em 0 0;
+    font-weight: bold;
+}
+.productDescription{
+    font-size: 1rem;
+    margin-top: .5em;
+}
+.divBtn{
+    display: flex;
+    gap: .5em;
+    justify-content: end;
+    margin: .5em 0 0;
+}
+
+.btnLimparCarrinho{
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    margin: 1em 0;
+    padding: .75em;
+    border: transparent;
+    border-radius: .5em;
+    transition: transform .15s ease-in-out;
+}
+.btnLimparCarrinho:hover{
+    background-color: #474646;
+}
+.btnLimparCarrinho:active{
+    transform: scale(.95);
+}
+.btnMais{
+    cursor: pointer;
+    background-color: #0d6efd;
+    padding: .25em;
+    font-size: 1.25em;
+    border-radius: .25em;
+    color: white;
+}
+.btnMenos{
+    cursor: pointer;
+    background-color: #ffc107;
+        padding: .35em;
+    font-size: 1.25em;
+    border-radius: .25em;
+    color: white;
+}
+.btnRemover{
+    cursor: pointer;
+    background-color: #dc3545;
+        padding: .25em;
+    font-size: 1.25em;
+    border-radius: .25em;
+    color: white;
+}
+
+.itemSubtotal{
+    font-weight: bold;
+    margin: .5em 0 0;
+}
+
+.info p{
+    font-weight: bold;
+    margin-top: 1em;
+}

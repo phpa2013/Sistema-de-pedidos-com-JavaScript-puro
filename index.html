@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de lanchonete</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body class="lightMode">
+
+        <main class="maxWidth container">
+
+            <header class="headerMain">
+             <h1 class="title">Lanchonete</h1>
+             <p class="pColor">Monte seu pedido</p>
+            </header>
+
+            <section class="filtros">
+                <div class="filterTxt">
+                    <input type="text" id="txtFilter" placeholder="buscar item pelo nome">
+                </div>
+
+                <div class="filterRadios">
+                  <label><input type="radio" name="produtos" value="todos" checked>Todos</label>
+                  <label><input type="radio" name="produtos" value="lanche">Lanches</label>
+                  <label><input type="radio" name="produtos" value="bebida">Bedidas</label>
+                  <label><input type="radio" name="produtos" value="porcao">Porções</label>
+                </div>
+            </section>
+
+
+            <section class="grid">
+
+                <div class="cardapio">
+                    <h2>Cardápio</h2>
+                    <ul class="listaCardapio"></ul>
+                </div>
+
+                <div class="carrinho">
+                    <h2>Carrinho</h2>
+                    <ul class="listaCarrinho"></ul>
+
+                    <div class="info">
+                       <p>R$ 00,00</p> 
+                       <button aria-label="Limpar carrinho" type="button" id="btnLimparCarrinho" class="btnLimparCarrinho">
+                        Limpar carrinho
+                    </button>
+                    </div>
+
+                </div>
+
+
+            
+            </section>
+
+
+        </main>
+
+<script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
