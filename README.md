@@ -1,4 +1,3 @@
-link => https://phpa2013.github.io/Sistema-de-pedidos-com-JavaScript-puro/
 # 🍔 Sistema de Lanchonete com JavaScript Puro
 
 Sistema completo de pedidos de lanchonete desenvolvido com JavaScript puro, permitindo ao usuário montar seu pedido com carrinho dinâmico, controle de quantidade e filtros em tempo real.
